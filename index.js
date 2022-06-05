@@ -6,3 +6,44 @@ class Coche{
     let puertas = 4;
 }
 
+
+let numeroIf = 2;
+if (numeroIf <0){
+    console.log("Negativo");
+}else if(numeroIf >0){
+    console.log("Positivo");
+}else{
+    console.log("0");
+}
+
+let numeroWhile = 2;
+while(numeroWhile <3){
+    console.log(numeroWhile);
+    numeroWhile = numeroWhile + 1;
+    
+};
+let numeroWhile = 3;
+ do(numeroWhile + 1);
+ while(numeroWhile <3);
+  
+for (numeroFor =0 ,numeroFor =< 3, numeroFor++);
+console.log(numeroFor);
+
+let estacion = invierno;
+
+switch (estacion){
+    case "invierno":
+    console.log(" es Invierno")
+    break;
+    case "verano":
+      console.log(" es Verano");
+    break;
+    case "primavera" :
+        console.log("es primavera");
+        break;
+    case "otonio":
+        console.log(es otonio);
+        break;
+    default: 
+        console.log("esto no es una estacion");
+}
