@@ -7,19 +7,20 @@ class Coche{
 }
 
 
-let numeroIf = 2;
+let numeroIf = 0;
 if (numeroIf <0){
-    console.log("Negativo");
+    console.log("la variable numeroIF" + numeroIf + "es negativa");
 }else if(numeroIf >0){
-    console.log("Positivo");
+    console.log("la variable numeroIF" + numeroIf + "es positiva");
 }else{
-    console.log("0");
+    console.log("La variable numeroIf es 0");
 }
 
 let numeroWhile = 2;
-while(numeroWhile <3){
-    console.log(numeroWhile);
+while(numeroWhile < 3){
     numeroWhile = numeroWhile + 1;
+    console.log(numeroWhile);
+    
     
 };
 let numeroWhile = 3;
