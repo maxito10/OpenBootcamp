@@ -48,3 +48,38 @@ switch (estacion){
     default: 
         console.log("esto no es una estacion");
 }
+
+
+
+class Persona {
+    private int edad;
+    private String nombre;
+    private int telefono;
+    
+   public void   setEdad (int valor)
+this.edad = valor;
+    
+    
+    public int getEdad(){
+        return this.edad;
+    }
+    
+    public void  setNombre (String valor){
+    this.nombre = valor
+    }
+    public int getNombre(){
+        return this.nombre;
+    }
+     public void  setTelefono (int valor){
+    this.telefono = valor
+    }
+    public int getTelefono(){
+        return this.telefono;
+    }
+}
+
+
+
+
+
+
