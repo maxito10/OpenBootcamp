@@ -1,4 +1,6 @@
-function suma (param1,param2,param3){
+
+
+    function suma (param1,param2,param3){
     return (param1+param2+param3);
 };
 
@@ -49,7 +51,19 @@ switch (estacion){
         console.log("esto no es una estacion");
 }
 
-
+public static void main (String [] args){ 
+    Persona persona = new Persona();
+persona.setEdad(15);
+int edad = persona.setEdad();
+persona.setNombre(Juanita);
+String nombre = persona.setNombre()
+persona.setTelefono(35148478);
+int telefono = persona.setTelefono();  
+    
+    system.out.println(edad)
+    system.out.println(nombre)
+    system.out.println(telefono)
+}
 
 class Persona {
     private int edad;
@@ -76,6 +90,8 @@ this.edad = valor;
     public int getTelefono(){
         return this.telefono;
     }
+
+
 }
 
 
