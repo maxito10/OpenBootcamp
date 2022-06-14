@@ -63,6 +63,7 @@ int telefono = persona.setTelefono();
     system.out.println(edad)
     system.out.println(nombre)
     system.out.println(telefono)
+    
 }
 
 class Persona {
@@ -93,9 +94,51 @@ this.edad = valor;
 
 
 }
+EJERCICIOS DE LA SESION 9
 
+class Persona {
+    private int edad;
+    private String nombre;
+    private int telefono;
+    };
 
+class Cliente extends Persona{
+let credito = true;
+}
+ 
+class Objeto extends Cliente {
+ public void   setEdad (int 34)
+this.edad = 34;
+ public int getEdad(){
+        return this.edad;
+    }  
+   public void  setTelefono (int 3517306023){
+    this.telefono = 3517306023   
+}
+    
+ public int getTelefono(){
+        return this.telefono;
+    }
+    
 
+    public void  setNombre (String maxito){
+    this.nombre = maxito
+    }
+   public int getNombre(){
+        return this.nombre;
+    }
+public void  setCredito (String tiene){
+    this.nombre = tiene
+    }
+     public int getCredito(){
+        return this.nombre;
+     }
+}
+system.out.println(edad)
+    system.out.println(nombre)
+    system.out.println(telefono)
+     system.out.println(credito)
 
-
-
+class Trabajador extends Persona {
+    let salario 
+}
